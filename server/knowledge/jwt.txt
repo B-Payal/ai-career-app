@@ -1,0 +1,18 @@
+JWT authentication is a token based authentication mechanism.
+
+When a user successfully logs in, the server can generate a JWT.
+
+The client sends the JWT with subsequent requests, usually through
+the Authorization header.
+
+The server verifies the JWT before allowing the request to continue.
+
+A JWT commonly contains three parts: a header, a payload, and a signature.
+
+The header describes the token type and signing algorithm.
+
+The payload contains claims about the user or token.
+
+The signature is used to verify that the token has not been modified.
+
+JWTs are commonly used for stateless authentication in web applications.
